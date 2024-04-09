@@ -1,0 +1,75 @@
+body {
+  font-family: "Gruppo", sans-serif;
+  font-weight: 400;
+  font-style:oblique;
+  background-color: #d0d48134; /* Light background */
+}
+
+.header {
+  background-color: rgb(49, 31, 31); /* Calming blue tone */
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-weight: normal; /* Reduce weight for a more delicate look */
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 3rem;
+}
+
+.image-container,
+.description {
+  width: 45%; /* Adjust width as needed for layout */
+  flex: 1; /* Allow sections to grow proportionally */
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.image-container {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px; /* Subtle rounded corners */
+}
+
+.description {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.footer {
+  background-color: rgb(49, 31, 31); /* Consistent header color */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Add a subtle border and shadow for a card-like effect */
+
+.image-container,
+.description {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
